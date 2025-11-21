@@ -87,7 +87,7 @@ header h1 {
 }
 
 .signup-main div input[type="submit"]:hover {
-  background-color: #1e1e1f;
+  background-color: #0d0d0e;
   text-shadow: 2px 2px 5px rgb(144, 144, 155);
 }
 
