@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>form Validation | JS Project</title>
-    <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="box">
-            <header class="signup-header">
-                <h1>Signup</h1>
-            </header>
-            <main class="signup-main">
-                <form action="#">
-                    <div>
-                        <label for="name">Full Name</label>
-                        <input type="text" placeholder="Enter Your Full Name" id="name">
-                        <i class="fa-solid"></i>
-                        <span id="nameErr" class="err"></span>
-                    </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="xyz@gmail.com" id="email">
-                        <i class="fa-solid"></i>
-                        <span id="emailErr" class="err"></span>
-                    </div>
-                    <div>
-                        <label for="password">Password</label>
-                        <input type="password" placeholder="Enter at least 8 characters" id="password">
-                        <i class="fa-solid"></i>
-                        <span id="passErr" class="err"></span>
-                    </div>
+      <div class="box">
+        <header class="signup-header">
+          <h1>Signup</h1>
+        </header>
+        <main class="signup-main">
+          <form action="#">
+            <div>
+              <label for="name">Full Name</label>
+              <input type="text" placeholder="Enter Your Full Name" id="name" />
+              <i class="fa-solid"></i>
+              <span id="nameErr" class="err"></span>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" placeholder="xyz@gmail.com" id="email" />
+              <i class="fa-solid"></i>
+              <span id="emailErr" class="err"></span>
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Enter at least 8 characters"
+                id="password"
+              />
+              <i class="fa-solid"></i>
+              <span id="passErr" class="err"></span>
+            </div>
 
-                    <div>
-                        <input type="submit"  id="submitBtn" value="Create Account"> 
-                    </div>
-                </form>
-            </main>
-            <footer class="signup-footer">
-                <p>Already have an account?<a href="">Login</a> </p>
-            </footer>
-        </div>
+            <div>
+              <input type="submit" id="submitBtn" value="Create Account" />
+            </div>
+          </form>
+        </main>
+        <footer class="signup-footer">
+          <p>Already have an account?<a href="">Login</a></p>
+        </footer>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
